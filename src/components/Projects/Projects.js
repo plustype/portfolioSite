@@ -27,8 +27,8 @@ function Projects() {
               isBlog={false}
               title="UAV Ground Control System"
               description="An enterprise-level software called Ground Control Station (GCS) for drone systems, using Java. GCS is a desktop drone operation software enabling fleet management, flight planning, real-time drone control, and flight data analysis."
-              // ghLink="https://github.com/soumyajit4419/Chatify"
-              // demoLink="https://chatify-49.web.app/"
+               //ghLink="https://github.com/soumyajit4419/Chatify"
+               //demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
