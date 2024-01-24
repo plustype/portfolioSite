@@ -11,7 +11,7 @@ function AboutCard() {
             Hi, I am <span className="purple">Steven Zhao.</span>
             <br />
             <br />
-            I am an adept software engineer with a comprehensive background in full-stack development. My solid grasp of data structures, algorithms, and design patterns is complemented by a proven ability to lead teams to deliver projects efficiently within scope and budget.
+            I am an experienced software engineer with a comprehensive background in full-stack development. I adept at working in cross-functional teams and collaborating with stakeholders to deliver projects on time and within budget.
             <br />
             <br />
             Beyond software, my experience extends to hardware system integration, product diagnostics and technical support.
