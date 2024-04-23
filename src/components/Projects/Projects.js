@@ -2,12 +2,15 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import gcs from "../../Assets/Projects/gcs.jpg"
-import kb from "../../Assets/Projects/kb.png"
-import garden from "../../Assets/Projects/garden.png"
-import todo from "../../Assets/Projects/todo.png"
-import mario from "../../Assets/Projects/mario.png"
-import ims from "../../Assets/Projects/ims.png"
+import gcs from "../../Assets/Projects/gcs.jpg";
+import kb from "../../Assets/Projects/kb.png";
+import construction from "../../Assets/Projects/construction.png";
+import supply from "../../Assets/Projects/supply.png";
+import tutor from "../../Assets/Projects/tutor.png";
+import garden from "../../Assets/Projects/garden.png";
+import todo from "../../Assets/Projects/todo.png";
+import mario from "../../Assets/Projects/mario.png";
+import ims from "../../Assets/Projects/ims.png";
 
 function Projects() {
   return (
@@ -27,8 +30,8 @@ function Projects() {
               isBlog={false}
               title="UAV Ground Control System"
               description="An enterprise-level software called Ground Control Station (GCS) for drone systems, using Java. GCS is a desktop drone operation software enabling fleet management, flight planning, real-time drone control, and flight data analysis."
-               //ghLink="https://github.com/soumyajit4419/Chatify"
-               //demoLink="https://chatify-49.web.app/"
+              //ghLink="https://github.com/soumyajit4419/Chatify"
+              //demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
@@ -45,11 +48,41 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={construction}
+              isBlog={false}
+              title="Construction Company Website"
+              description="A business website of a construction company. Build through ReactJS."
+              demoLink="https://www.ladco.mb.ca"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={supply}
+              isBlog={false}
+              title="Kitchen Supply Company Website"
+              description="A website of a kitchen supply company. Build through TypeScript + ReactJS."
+              demoLink="https://www.vanzone.ca"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={tutor}
+              isBlog={false}
+              title="Tutorial Courses Website"
+              description="A website of a tutorial courses provider. Build through TypeScript + ReactJS."
+              demoLink="https://www.allin1pal.com"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={garden}
               isBlog={false}
-              title="Gardening Business Website"
+              title="Gardening Company Website"
               description="A business website of a gardening company. It shows all the infomation that customers need to know including the services, teams and priceing. Also allow customer send request to business owner"
-              ghLink="https://github.com/ProWebDevelop/servicetemplate"              
+              ghLink="https://github.com/ProWebDevelop/servicetemplate"
             />
           </Col>
 
@@ -81,7 +114,7 @@ function Projects() {
               title="Inventory Management System Demo"
               description="A simple desktop version of inventory management system. Used to practice building back-end and database through Spring Boot and MySQL "
               ghLink="https://github.com/plustype/IMSDemo"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
             />
           </Col>
         </Row>
